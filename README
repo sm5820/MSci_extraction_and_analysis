@@ -2,3 +2,7 @@ This repository includes:
   1. .py functions made for extraction of data from CRYSTAL23 .out files
   2. Jupyter notebooks - processing of data
   3. Jupyter notebooks with numerical analysis 
+
+.py files in repository:
+getmonovals.py: Takes directory path as input - sorts and reads through CRYSTAL23 output files (written in FORTRAN) to extract physical values to store in a pandas dataframe. 
+Example output:
